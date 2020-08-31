@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>gracias por contactarnos</title>
+<script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
+
+<script>
+  window.renderOptIn = function() {
+    window.gapi.load('surveyoptin', function() {
+      window.gapi.surveyoptin.render(
+        {
+          // REQUIRED FIELDS
+          "merchant_id": 7726744,
+          "order_id": "0001",
+          "email": "eve@dimater.com",
+          "delivery_country": "ec",
+          "estimated_delivery_date": "20018-12-31",
+
+          // OPTIONAL FIELDS
+          "products": [{"gtin":"domi1"}, {"gtin":"hostin2"}]
+        });
+    });
+  }
+</script>
+</head>
+
+<body>
+</body>
+</html>

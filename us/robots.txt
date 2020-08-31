@@ -1,0 +1,7 @@
+User-agent:*
+Allow: /
+Allow: /portafolio/ 
+Allow: /biografia/ Allow: /img/ 
+User-agent: Mediapartners-Google*
+
+Sitemap:http://dimater.com/sitemap.xml
